@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+//all page 
+import MenuNav from './SectionPage/MenuNav/index.js'
+import Banner from './SectionPage/banner/index.js'
+import Headline from './SectionPage/headline/index.js'
+import ThreeOptions from './SectionPage/3options/index.js';
+import MakeyouDownload from './SectionPage/downloadPage/index.js';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MenuNav />
+    <Banner />
+    <Headline />
+    <ThreeOptions />
+    <MakeyouDownload/>
+
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

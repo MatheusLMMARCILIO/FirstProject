@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.AllPage {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.AllPage h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 25px;
+}
+
+.AllPage p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.boxMother {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 500px;
+    height: 100px;
+    background-color: #ededed;
+    margin: 10px;
+}
+
+.box:hover {
+    background-color: #323232;
+}
